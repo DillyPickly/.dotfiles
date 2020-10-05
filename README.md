@@ -5,9 +5,9 @@ My Linux Configuration Files
 
 
 ``` bash
-  git clone --no-checkout https://github.com/DillyPickly/.dotfiles.git $HOME/.dotfiles
+  git clone --bare https://github.com/DillyPickly/.dotfiles.git $HOME/.dotfiles
 ```
-Using [`--no-checkout`](https://git-scm.com/docs/git-clone#Documentation/git-clone.txt---no-checkout) because we want to checkout files to the `$/HOME` directory
+Using [`--bare`](https://git-scm.com/docs/git-clone#Documentation/git-clone.txt---bare) 
 
 
 ``` bash 
@@ -38,7 +38,10 @@ This will try to write the files from .dotfiles to the home directory and will f
   config push
   ```
   
+  
+  
 
 Credit to:
 https://news.ycombinator.com/item?id=11070797
 https://www.atlassian.com/git/tutorials/dotfiles
+http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/
