@@ -41,7 +41,8 @@ This will try to write the files from .dotfiles to the home directory and will f
   
   
 
-Credit to:
-https://news.ycombinator.com/item?id=11070797
-https://www.atlassian.com/git/tutorials/dotfiles
-http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/
+### Other Resources:
+
+- https://news.ycombinator.com/item?id=11070797
+- https://www.atlassian.com/git/tutorials/dotfiles
+- http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/
