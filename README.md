@@ -5,9 +5,9 @@ My Linux Configuration Files
 
 
 ``` bash
-  git clone --bare https://github.com/DillyPickly/.dotfiles.git $HOME/.dotfiles
+  git clone --no-checkout https://github.com/DillyPickly/.dotfiles.git $HOME/.dotfiles
 ```
-Using `--bare` so as to not get the working tree and revision history
+Using [`--no-checkout`](https://git-scm.com/docs/git-clone#Documentation/git-clone.txt---no-checkout) because we want to checkout files to the `$/HOME` directory
 
 
 ``` bash 
