@@ -5,7 +5,7 @@ My Linux Configuration Files
 
 
 ``` bash
-  git clone --bare <git-repo-url> $HOME/.dotfiles
+  git clone --bare https://github.com/DillyPickly/.dotfiles.git $HOME/.dotfiles
 ```
 Using `--bare` so as to not get the working tree and revision history
 
