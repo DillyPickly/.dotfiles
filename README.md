@@ -13,7 +13,7 @@ Using [`--bare`](https://git-scm.com/docs/git-clone#Documentation/git-clone.txt-
 ``` bash 
   alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 ```
-This alias is how I manage the dotfiles each machine
+This alias is how I manage the dotfiles each machine. To make sure that this alias is permanent I have added the above line to my `.zshrc`
 
 ``` bash
   config config --local status.showUntrackedFiles no
@@ -37,6 +37,8 @@ This will try to write the files from .dotfiles to the home directory and will f
   config commit -m "Add bashrc"
   config push
   ```
+  
+ 
   
   
   
