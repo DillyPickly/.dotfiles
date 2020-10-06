@@ -42,6 +42,10 @@ The configuration of ZSH is done by the `.zshrc` file. To get your set up workin
 
 I use zsh-autosuggestions and zsh-syntax-highlighting. Those need to be downloaded [here](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh) and [here](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
 
+If you get broken characters in the terminal fromt the zsh fonts be sure to change the font in the terminal emulator. For example in default gnome go to the xterm setting and change the font. Many of the themes need powerline fonts which can be found [here](https://github.com/powerline/fonts#installation)
+
+
+
   
 
 ### Other Resources:
