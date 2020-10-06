@@ -40,7 +40,7 @@ This will try to write the files from .dotfiles to the home directory and will f
 ### ZSH and Oh My Zsh
 The configuration of ZSH is done by the `.zshrc` file. To get your set up working like mine. Follow the instrucitons to install ZSH and Oh My Zsh [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#zsh) and [here](https://github.com/ohmyzsh/ohmyzsh#basic-installation). Then, replace the default `.zshrc` file with the one in this repo (when checking out)
 
-I use zsh-autosuggestions and zsh-syntax-highlighting. Those need to be downloaded [here](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh) and [here](https://github.com/zsh-users/zsh-syntax-highlighting.git)
+I use zsh-autosuggestions and zsh-syntax-highlighting. Those need to be downloaded [here](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh) and [here](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
 
   
 
