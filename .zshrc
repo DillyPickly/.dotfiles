@@ -115,3 +115,4 @@ unset __conda_setup
 
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
+export $EDITOR='nano'
