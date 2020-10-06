@@ -49,6 +49,8 @@ simply install the `gnome` and `gnome-tweaks` packages [More Info](https://wiki.
 
 THe most important extensions that I use are the dash to dock extension and user themes extension for a desktop dock and theming. I also use few others for conveniece like caffeine
 
+For GTK, gnome-tweaks can access the icons from the `.icons` folder in the home directory. Installation instructions for papirus can be found [here](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/#home-directory-for-gtk)
+
 ###
 
 
