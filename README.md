@@ -52,7 +52,7 @@ THe most important extensions that I use are the dash to dock extension and user
 For GTK, gnome-tweaks can access the icons from the `.icons` folder in the home directory. A version of the papirus icons is included in this repo. For more info Installation instructions for papirus can be found [here](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/#home-directory-for-gtk). 
 
 ### YAY 
-Many of the packages that use the dotfiles are from the aur (arch user repositiory) and yay is a tool to download packages from there. To install yay follow instructions here [here](https://www.tecmint.com/install-yay-aur-helper-in-arch-linux-and-manjaro/)
+Many of the packages that use the dotfiles are from the aur (arch user repositiory) and yay is a tool to download packages from there. To install yay follow instructions here [here](https://www.tecmint.com/install-yay-aur-helper-in-arch-linux-and-manjaro/) or [here](https://linuxhint.com/aur_arch_linux/)
 
 
   
