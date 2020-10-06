@@ -44,10 +44,12 @@ I use zsh-autosuggestions and zsh-syntax-highlighting. Those need to be download
 
 If you get broken characters in the terminal fromt the zsh fonts be sure to change the font in the terminal emulator. For example in default gnome go to the xterm setting and change the font. Many of the themes need powerline fonts which can be found [here](https://github.com/powerline/fonts#installation)
 
-### I use a vanilla gnome setup
+### I currently use gnome setup
 simply install the `gnome` and `gnome-tweaks` packages [More Info](https://wiki.archlinux.org/index.php/GNOME#Installation). Then enable the `systemctl enable gdm.service` to start gnome at boot.
 
+THe most important extensions that I use are the dash to dock extension and user themes extension for a desktop dock and theming. I also use few others for conveniece like caffeine
 
+###
 
 
   
