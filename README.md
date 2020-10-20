@@ -42,7 +42,9 @@ The configuration of ZSH is done by the `.zshrc` file. To get your set up workin
 
 I use zsh-autosuggestions and zsh-syntax-highlighting. Those need to be downloaded [here](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh) and [here](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
 
-If you get broken characters in the terminal fromt the zsh fonts be sure to change the font in the terminal emulator. For example in default gnome go to the xterm setting and change the font. Many of the themes need powerline fonts which can be found [here](https://github.com/powerline/fonts#installation)
+If you get broken characters in the terminal from the zsh fonts be sure to change the font in the terminal emulator. For example in default gnome go to the xterm setting and change the font. Many of the themes need powerline fonts which can be found [here](https://github.com/powerline/fonts#installation)
+
+I am now using powerline10k for oh my zsh configuration. The repo information can be found [here](https://github.com/romkatv/powerlevel10k)
 
 ### I currently use gnome setup
 simply install the `gnome` and `gnome-tweaks` packages [More Info](https://wiki.archlinux.org/index.php/GNOME#Installation). Then enable the `systemctl enable gdm.service` to start gnome at boot.
