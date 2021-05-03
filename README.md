@@ -19,7 +19,9 @@ My Linux Configuration Files
 ``` bash
 	xargs sudo dnf install -y <.pkglist/dnf.txt
 ```
-with the dnf packages are in the `dnf.txt` file
+with the dnf packages in  `dnf.txt` 
 
-## To install fonts and change terminal settings
-https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k
+## Installing Manual Packages
+``` bash 
+	./.pkglist/manual.sh
+```
