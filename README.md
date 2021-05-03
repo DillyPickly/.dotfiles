@@ -26,4 +26,6 @@ with the dnf packages in  `dnf.txt`
 ./.pkglist/manual.sh
 ```
 
-## Must log out for changes to take effect
+## To finish installation 
+ - Log out
+ - Change terminal font to MesloLGS
