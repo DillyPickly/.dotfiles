@@ -1,2 +1,6 @@
 util-linux-user
 zsh
+gnome-tweaks 
+firefox
+htop
+neofetch
