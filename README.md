@@ -25,3 +25,5 @@ with the dnf packages in  `dnf.txt`
 ``` bash 
 ./.pkglist/manual.sh
 ```
+
+## Must log out for changes to take effect
