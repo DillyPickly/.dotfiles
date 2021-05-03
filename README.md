@@ -5,9 +5,9 @@ My Linux Configuration Files
 
 ### Set up repo 
 ``` bash
-  git clone --bare https://github.com/DillyPickly/.dotfiles.git $HOME/.dotfiles
-  alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-  config config --local status.showUntrackedFiles no
+git clone --bare https://github.com/DillyPickly/.dotfiles.git $HOME/.dotfiles
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+config config --local status.showUntrackedFiles no
 ```
 
 ### Add dotfiles
@@ -17,11 +17,11 @@ My Linux Configuration Files
   
 ## Installing Packages
 ``` bash
-	xargs sudo dnf install -y <.pkglist/dnf.txt
+xargs sudo dnf install -y <.pkglist/dnf.txt
 ```
 with the dnf packages in  `dnf.txt` 
 
 ## Installing Manual Packages
 ``` bash 
-	./.pkglist/manual.sh
+./.pkglist/manual.sh
 ```
