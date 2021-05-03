@@ -1,6 +1,7 @@
 # Installing Oh My Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 chsh -s $(which zsh)
+cp ~/.zshrc.pre-oh-my-zsh ~/.zshrc # readding old .zshrc
 
 #Installing required fonts -- https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k
 wget -P ~/.local/share/fonts \
