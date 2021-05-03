@@ -12,7 +12,7 @@ config config --local status.showUntrackedFiles no
 
 ### Add dotfiles
 ``` bash
-  config checkout 
+config checkout 
 ```
   
 ## Installing Packages
