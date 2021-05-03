@@ -27,40 +27,11 @@ Set the status so that untracked files do not give messages when calling somethi
 This will try to write the files from .dotfiles to the home directory and will fail if there are config files currently in the home directly of the same name. Simply delete those configuration files if you dont want them and rerun `config checkout`
   
   
-### To update my dotfiles locally and push
-
+## Installing Packages
 ``` bash
-  config status
-  config add .zshrc
-  config commit -m "Add bashrc"
-  config push
+	xargs sudo dnf install -y <dnf.txt
 ```
-  
- 
-### ZSH and Oh My Zsh
-The configuration of ZSH is done by the `.zshrc` file. To get your set up working like mine. Follow the instrucitons to install ZSH and Oh My Zsh [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#zsh) and [here](https://github.com/ohmyzsh/ohmyzsh#basic-installation). Then, replace the default `.zshrc` file with the one in this repo (when checking out)
+with the dnf packages are in the `dnf.txt` file
 
-I use zsh-autosuggestions and zsh-syntax-highlighting. Those need to be downloaded [here](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh) and [here](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
-
-If you get broken characters in the terminal from the zsh fonts be sure to change the font in the terminal emulator. For example in default gnome go to the xterm setting and change the font. Many of the themes need powerline fonts which can be found [here](https://github.com/powerline/fonts#installation)
-
-I am now using powerline10k for oh my zsh configuration. The repo information can be found [here](https://github.com/romkatv/powerlevel10k)
-
-### I currently use gnome setup
-simply install the `gnome` and `gnome-tweaks` packages [More Info](https://wiki.archlinux.org/index.php/GNOME#Installation). Then enable the `systemctl enable gdm.service` to start gnome at boot.
-
-THe most important extensions that I use are the dash to dock extension and user themes extension for a desktop dock and theming. I also use few others for conveniece like caffeine
-
-For GTK, gnome-tweaks can access the icons from the `.icons` folder in the home directory. A version of the papirus icons is included in this repo. For more info Installation instructions for papirus can be found [here](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/#home-directory-for-gtk). 
-
-### YAY 
-Many of the packages that use the dotfiles are from the aur (arch user repositiory) and yay is a tool to download packages from there. To install yay follow instructions here [here](https://www.tecmint.com/install-yay-aur-helper-in-arch-linux-and-manjaro/) or [here](https://linuxhint.com/aur_arch_linux/)
-
-
-  
-
-### Other Resources:
-
-- https://news.ycombinator.com/item?id=11070797
-- https://www.atlassian.com/git/tutorials/dotfiles
-- http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/
+## To install fonts and change terminal settings
+https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k
