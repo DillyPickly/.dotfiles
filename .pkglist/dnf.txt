@@ -4,3 +4,4 @@ gnome-tweaks
 firefox
 htop
 neofetch
+virt-manager
