@@ -125,5 +125,6 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-
+# dotfiles config -- dylan
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
