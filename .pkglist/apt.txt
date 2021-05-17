@@ -1,0 +1,8 @@
+curl
+zsh
+gnome-tweaks 
+firefox
+htop
+neofetch
+virt-manager
+papirus-icon-theme

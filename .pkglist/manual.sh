@@ -21,4 +21,4 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 # Installing Anaconda -- need to add hash check
 wget https://repo.anaconda.com/miniconda/Miniconda3-py39_4.9.2-Linux-x86_64.sh -O miniconda.sh
 bash ~/miniconda.sh -b -p $HOME/miniconda
-
+rm ~/miniconda.sh
