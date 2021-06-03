@@ -1,5 +1,7 @@
 # Installing Oh My Zsh
 # Must have zsh installed for this to work
+command -v zsh >/dev/null 2>&1 || { echo >&2 "I require zsh but it's not installed.  Aborting."; exit 1; }
+
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 chsh -s $(which zsh)
 cp ~/.zshrc.pre-oh-my-zsh ~/.zshrc # readding old .zshrc
