@@ -12,7 +12,7 @@ config config --local status.showUntrackedFiles no
 
 ### Add dotfiles
 ``` bash
-config checkout 
+config checkout
 ```
   
 ## Installing Packages
@@ -22,7 +22,7 @@ xargs sudo dnf install -y <.pkglist/dnf.txt
 with the dnf packages in  `dnf.txt` 
 
 ## Installing Manual Packages
-``` bash 
+``` bash
 ./.pkglist/manual.sh
 ```
 
